@@ -49,6 +49,7 @@ ul{
 .cont1 img{
     width: 400px;
     height: 250px;
+    border-radius: 20px;
 }
 
 .nav-bar{
@@ -141,5 +142,41 @@ ul{
     font-size: 18px;
     margin-bottom: 50px;
 }
+
+.sign-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}
+
+.box-blue{
+    background-color: #0080ff;
+    width: 900px;
+    height: 150px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    gap: 300px;
+}
+
+.box-blue button{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #0080ff;
+    color:  white;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid;
+}
+
+.box-blue h3, .box-blue p{
+    margin: 6px; 
+    padding: 0px;   
+}
+
 
 
